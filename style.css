@@ -95,7 +95,7 @@ header{
 
 body{
     position: relative;
-    height: 2000px;
+    height: 1000%;
 }
 .navi1{background:rgb(155,89,182,0.1)}
 .navi1:hover {
