@@ -1,0 +1,257 @@
+.mediamin{
+    position: absolute;
+    right: 10%;
+    margin-top: 2%;
+    display: none;
+    transform: rotate(45deg);
+    transform:;
+
+
+}
+.mediamin>img{
+    width: 60px;
+
+}
+
+
+
+@media screen and (max-width:1100px){
+
+
+
+    .navi1>a{
+    font-size: 25px;
+
+    }
+    .navi1{
+        width: 125px;
+        margin-top: 5%;
+    }
+    .navi1:hover{
+        width: 125px;
+    }
+    .navpanel{
+        text-align: left;
+
+    }
+    .info{
+        margin-top: 20%;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+
+    header{
+        background-position: center;
+    }
+    .our{
+        width: 100%;
+
+
+    }
+
+    .nav{
+        width: 100%;
+        border-radius: 0px;
+
+    }
+      .navi1>a{
+    font-size: 25px;
+
+    }
+    .navi1{
+        width: 120px;
+        margin-top: 3%;
+    }
+
+    .navpanel{
+        text-align: right;
+        right: 50px;
+
+    }
+    .info{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    .logo{
+        margin-left: 10%;
+    }
+
+
+
+    .main{
+        width: 100%;
+        margin-top: 100px;
+        height: 80vh;
+    }
+    .mainin{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 100px;
+        height: 90%;
+    }
+
+
+
+}
+
+
+@media all and (max-width:860px){
+
+
+
+
+    .navi1>a{
+    font-size: 25px;
+
+    }
+    .navi1{
+        width: 125px;
+        margin-top: 5%;
+    }
+    .navi1:hover{
+        width: 125px;
+    }
+    .navpanel{
+visibility: hidden;
+        display: none;
+
+    }
+    .info{
+        margin-top: 20%;
+    }
+
+    .mediamin{
+        display: block;
+    }
+
+
+    .ware{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10,190px);
+        left: 15%;
+        top:0;
+                width: 70%;
+
+
+
+    }
+
+    .mainin{
+        height: 135%;
+    }
+
+
+
+
+
+
+    .prod{
+        grid-template-columns: 1fr 3fr;
+    }
+    .q2{
+        text-align: right;
+    }
+
+
+
+    button{
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+ @media all and (max-width:600px){
+
+    .navi1>a{
+    font-size: 25px;
+
+    }
+    .navi1{
+        width: 125px;
+        margin-top: 5%;
+    }
+    .navi1:hover{
+        width: 125px;
+    }
+    .navpanel{
+visibility: hidden;
+        display: none;
+
+    }
+    .info{
+        margin-top: 20%;
+    }
+
+    .mediamin{
+        display: block;
+    }
+
+      .ware{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10,230px);
+        left: 0;
+        top:0;
+                width: 100%;
+          grid-gap: 0;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    }
+
+@media screen and (max-height:500px){
+
+    .info{
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+        margin-left: 30%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

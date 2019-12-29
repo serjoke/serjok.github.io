@@ -1,0 +1,61 @@
+@keyframes anim2{
+    from{box-shadow: 0 0 100px 30px rgba(245, 245, 220, .7);}
+    20%{box-shadow: 0 0 90px 30px rgba(245, 245, 220, .7);}
+    40%{box-shadow: 0 0 80px 30px rgba(245, 245, 220, .7);}
+     60%{box-shadow: 0 0 80px 30px rgba(245, 245, 220, .7);}
+    80%{box-shadow: 0 0 90px 30px rgba(245, 245, 220, .7);}
+    to{box-shadow: 0 0 100px 30px rgba(245, 245, 220, .7);}
+}
+@keyframes anim3{
+    from{box-shadow: 0 0 100px 30px rgba(245, 245, 220);}
+    20%{box-shadow: 0 0 90px 30px rgba(245, 245, 220);}
+    40%{box-shadow: 0 0 80px 30px rgba(245, 245, 220);}
+     60%{box-shadow: 0 0 80px 30px rgba(245, 245, 220);}
+    80%{box-shadow: 0 0 90px 30px rgba(245, 245, 220);}
+    to{box-shadow: 0 0 100px 30px rgba(245, 245, 220);}
+}
+
+@font-face{
+    font-family:"font2";
+    src:url("../fonts/font2.otf");
+}
+
+.inform{
+    font-family: "font2";
+    text-align: center;
+
+
+}
+.info{
+        display:block;
+    border-radius: 250px;
+    background-color: rgba(245, 245, 220,0.5);
+    font-size: 30px;
+    text-shadow:  0px 3px white;
+    padding:30px 30px 30px 30px;
+    animation: anim2 2s infinite linear;
+    position: absolute;
+    height: 350px;
+        width: 350px;
+    transition: .1s;
+    margin-left: 20%;
+    margin-top: 15%;
+
+
+}
+
+.info>h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.info:hover{
+        background-color: rgba(245, 245, 220,0.7);
+    animation: anim3 linear infinite 2s;
+    padding:28px 30px 30px 30px;
+        text-shadow:  0px 5px white;
+    transition: .1s;
+}
+
+
+
+

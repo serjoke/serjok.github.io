@@ -1,0 +1,160 @@
+@font-face{
+    font-family: "font1";
+    src:url("../fonts/font1.ttf");
+
+}
+@font-face{
+    font-family: "font2";
+    src:url("../fonts/font2.otf");
+
+}
+@keyframes anim5{
+    from{box-shadow: -2px -2px 10px -2px white;}
+    20%{box-shadow: 0px 0px 15px 0px white;}
+    40%{box-shadow: 2px 2px 20px 2px white;}
+     60%{box-shadow: 2px 2px 20px 2px white;}
+    80%{box-shadow: 0px 0px 15px 0px white;}
+    to{box-shadow: -2px -2px 10px -2px white;}
+}
+@keyframes anim1{
+    from{box-shadow: -2px -2px 10px -2px white;}
+    20%{box-shadow: 0px 0px 15px 0px white;}
+    40%{box-shadow: 2px 2px 20px 2px white;}
+     60%{box-shadow: 2px 2px 20px 2px white;}
+    80%{box-shadow: 0px 0px 15px 0px white;}
+    to{box-shadow: -2px -2px 10px -2px white;}
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    position:relative;
+background-image: url(../images/bghead2.png);
+    height: 100%;
+    box-shadow: inset 0px 0px 50px black, inset 0px 0px 50px black;
+
+}
+.our{
+        width: 70%;
+    margin: 0 auto;
+    font-family: "font1";
+    box-shadow: inset 0px 0px 50px black, inset 0px 0px 50px black;
+}
+.nav{
+    background-color:rgba(245, 245, 220,0.2);
+    position: fixed;
+    width: 70%;
+    border-radius: 0px 0px 50px 50px;
+    animation:anim5 2s infinite linear;
+    z-index: 5;
+}
+.logo{
+    float: left;
+    height: 115px;
+    margin-top: -15px;
+}
+.intlogo:hover{
+    width: 128px;
+    height: 128px;
+    background-image: url(../images/icon2.png);
+}
+.navi1>a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px;
+
+}
+.navpanel{
+        text-align: center;
+    position: relative;
+
+}
+.navi:hover{
+    color: white;
+        transition: linear 0.1s;
+
+
+}
+.navi{
+        transition: linear 0.1s;
+
+
+
+}
+.navi1{
+    border: 1px solid rgba(245, 245, 220,0.3);
+    border-radius: 25px;
+    width: 140px;
+    font-family: font1;
+    text-align: center;
+    background-color: rgb(155,89,182,0.1);
+        transition: linear 0.1s;
+
+}
+.navi1:hover{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    width: 160px;
+    transition: linear 0.1s;
+    content:"";
+}
+
+
+.navi1{background:rgb(155,89,182,0.1)}
+.navi1:hover {
+  box-shadow: 200px 0 0 0 rgba(0,0,0,.3) inset;
+    transition: .15s linear;
+}
+
+
+
+
+.main{
+
+    width: 70%;
+    height: 70vh;
+    border: 1px solid white;
+    background-color: aliceblue;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10%;
+        box-shadow: inset 0px 0px 5px 0px white,  0px 0px 5px white,0px 0px 30px 0px white;
+    font-family: font1;
+    animation: white infinite linear 2s;
+
+
+}
+
+.lisa{
+    border-radius: 100%;
+    position: absolute;
+    width: 30%;
+    right: 5%;
+    top: 15%;
+}
+
+span.mail{
+    font-family: "font2";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: absolute;
+}
+p{
+    padding: 20px;
+    width: 350px;
+    position: absolute;
+    height: 50%;
+}
+span img{
+    margin-left: 20px;
+    height: 30px;
+}
+
+
+
