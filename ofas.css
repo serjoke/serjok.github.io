@@ -1,11 +1,11 @@
 @font-face{
     font-family: "font1";
-    src:url("../fonts/font1.ttf");
+    src:url("font1.ttf");
 
 }
 @font-face{
     font-family: "font2";
-    src:url("../fonts/font2.otf");
+    src:url("font2.otf");
 
 }
 @keyframes anim5{
@@ -32,7 +32,7 @@
 
 body{
     position:relative;
-background-image: url(../images/bghead2.png);
+background-image: url(bghead2.png);
     height: 100%;
     box-shadow: inset 0px 0px 50px black, inset 0px 0px 50px black;
 
@@ -59,7 +59,7 @@ background-image: url(../images/bghead2.png);
 .intlogo:hover{
     width: 128px;
     height: 128px;
-    background-image: url(../images/icon2.png);
+    background-image: url(icon2.png);
 }
 .navi1>a{
     text-align: center;
